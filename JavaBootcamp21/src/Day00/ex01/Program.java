@@ -3,8 +3,7 @@ package Day00.ex01;
 import java.util.Scanner;
 
 public class Program {
-
-    protected static int counter = 0;
+    static int counter = 0;
     public static boolean checkNumber(int number) {
         int i = 2;
         int j = 0;
