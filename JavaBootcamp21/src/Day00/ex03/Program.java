@@ -59,8 +59,6 @@ public class Program {
                 if (scanStr.hasNextInt()) maxScore = scanStr.nextInt();
                 if (maxScore < 1 || maxScore > 9) throwErr();
                 if (maxScore < minScore) minScore = maxScore;
-                if (numberOfWeek == 17 && i == 4) break;
-                if (i == 4 && scanStr.hasNextInt() && !scanStr.hasNext("42")) throwErr();
             }
             makeLongArray(minScore, numberOfWeek + 1);
             initScore();
